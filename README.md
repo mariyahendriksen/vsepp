@@ -1,8 +1,6 @@
-# Improving Visual-Semantic Embeddings with Hard Negatives
+# Learning Visual-Semantic Embedding for Cross-Modal Retrieval
 
-Code for the image-caption retrieval methods from
-**[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612)**
-*, F. Faghri, D. J. Fleet, J. R. Kiros, S. Fidler, Proceedings of the British Machine Vision Conference (BMVC),  2018. (BMVC Spotlight)*
+Based on the code from [VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612), F. Faghri, D. J. Fleet, J. R. Kiros, S. Fidler, Proceedings of the British Machine Vision Conference (BMVC),  2018. (BMVC Spotlight)
 
 **For compatibility with PyTorch4.1 the default behavior has changed such that 
 some of the results might not be reproduced. This is being investigated. Please 
@@ -22,8 +20,7 @@ We recommended to use Anaconda for the following packages.
 * Punkt Sentence Tokenizer:
 ```python
 import nltk
-nltk.download()
-> d punkt
+nltk.download('punkt')
 ```
 
 ## Download data
