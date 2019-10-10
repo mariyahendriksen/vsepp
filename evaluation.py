@@ -131,7 +131,11 @@ def evalrank(model_path, data_path=None, split='dev', fold5=False):
     used for evaluation.
     """
     # load model and options
-    checkpoint = torch.load(model_path)
+    if torch.cuda.is_available():
+        checkpoint = torch.load(model_path)
+    else:
+        checkpoint = torch.load(model_path, map_location=torch.device('cpu'))
+
     opt = checkpoint['opt']
     if data_path is not None:
         opt.data_path = data_path
