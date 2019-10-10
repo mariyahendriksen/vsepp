@@ -7,15 +7,13 @@ some of the results might not be reproduced. This is being investigated. Please
 refer to issue #4**
 
 ## Dependencies
-We recommended to use Anaconda for the following packages.
+The current version works with Python 2.7. To install all the necessary dependencies, please run:
 
-* Python 2.7
-* [PyTorch](http://pytorch.org/) (>0.4.1)
-* [NumPy](http://www.numpy.org/) (>1.12.1)
-* [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
-* [pycocotools](https://github.com/cocodataset/cocoapi)
-* [torchvision]()
-* [matplotlib]()
+``bash
+pip install .
+``
+
+Additionally, you need to install Punkt Sentence Tokenizer
 
 * Punkt Sentence Tokenizer:
 ```python
@@ -65,18 +63,6 @@ Arguments used to train pre-trained models:
 | Order0    | `--measure order --use_abs --margin .05 --learning_rate .001` |
 | Order++   | `--measure order --max_violation` |
 
-
-## Reference
-
-If you found this code useful, please cite the following paper:
-
-    @article{faghri2018vse++,
-      title={VSE++: Improving Visual-Semantic Embeddings with Hard Negatives},
-      author={Faghri, Fartash and Fleet, David J and Kiros, Jamie Ryan and Fidler, Sanja},
-      booktitle = {Proceedings of the British Machine Vision Conference ({BMVC})},
-      url = {https://github.com/fartashf/vsepp},
-      year={2018}
-    }
 
 ## License
 

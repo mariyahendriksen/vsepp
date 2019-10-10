@@ -1,0 +1,8 @@
+torch
+torchvision
+tensorboard_logger
+cython
+numpy
+pycocotools
+matplotlib
+nltk
