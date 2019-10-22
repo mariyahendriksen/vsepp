@@ -1,5 +1,14 @@
+# project related files
+runs/
+tests/
+vocab/
+data/
+
 # Apple-specific files
 .DS_Store
+
+# Pycharm-related files
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

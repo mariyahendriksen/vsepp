@@ -9,7 +9,7 @@ refer to issue #4**
 ## Dependencies
 The current version works with Python 2.7. To install all the necessary dependencies, please run:
 
-``bash
+``
 pip install .
 ``
 

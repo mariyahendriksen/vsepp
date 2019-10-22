@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 print('Started!')
 with open('requirements.txt') as f:
@@ -15,6 +15,7 @@ setup(
         'Intended Audience :: Science/Research',
         'Programming Language :: Python :: 2.7',
     ],
+    packages=find_packages(exclude=['.tests']),
     author='Mariya Hendriksen',
     author_email='m.hendriksen@uva.nl',
     licanse='MIT'
