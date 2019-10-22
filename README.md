@@ -13,8 +13,6 @@ The current version works with Python 2.7. To install all the necessary dependen
 pip install .
 ``
 
-Additionally, you need to install Punkt Sentence Tokenizer
-
 * Punkt Sentence Tokenizer:
 ```python
 import nltk
